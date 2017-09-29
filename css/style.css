@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Lato; }
+
+a:visited {
+  outline: none;
+  color: #389dc1; }
+a:hover {
+  text-decoration: none; }
+
+body::before {
+  content: "";
+  display: block;
+  height: 100vh;
+  width: 100%;
+  filter: blur(5vh);
+  opacity: 0.7;
+  background-image: url(https://wallpapercave.com/wp/U0ZpRpE.jpg);
+  position: absolute; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+  .container #clock {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 70%;
+    height: 75%;
+    background: white;
+    box-shadow: 4vh 7vh 14vh -6vh rgba(0, 0, 0, 0.35), -4vh 7vh 14vh -6vh rgba(0, 0, 0, 0.35); }
+  .container .display {
+    background-color: #63546c;
+    box-shadow: 1px 10px 50px #645771;
+    width: 70%;
+    height: 45%;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .container .display #time {
+      font-weight: 100;
+      font-size: 9vw; }
+
+/*# sourceMappingURL=style.css.map */
